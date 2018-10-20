@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/arsun2/poweraid#readme",
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.1.3",
+    "brfs": "^2.0.1",
+    "browserify-fs": "^1.0.0",
+    "eventregistry": "^8.5.13",
+    "request": "^2.88.0"
   }
 }

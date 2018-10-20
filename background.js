@@ -10,7 +10,7 @@ chrome.runtime.onInstalled.addListener(function() {
   });
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
 
-    // The browser will now show a full-color page action icon in the browser 
+    // The browser will now show a full-color page action icon in the browser
     // toolbar when users navigate to a URL that contains "developer.chrome.com".
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
