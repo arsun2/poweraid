@@ -9,6 +9,9 @@ chrome.runtime.onInstalled.addListener(function() {
     console.log('The color is green.');
   });
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
+
+    // The browser will now show a full-color page action icon in the browser 
+    // toolbar when users navigate to a URL that contains "developer.chrome.com".
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [new chrome.declarativeContent.PageStateMatcher({
         pageUrl: {hostEquals: 'developer.chrome.com'},

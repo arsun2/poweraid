@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <button id="changeColor"></button>
+    <div id="container">
+      <h5 id="main-header">What you can help with:</h5>
+      <hr />
+      <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
+
+
+      <button id="changeColor"></button>
+    </div>
     <script src="popup.js"></script>
+    <script src="bundle.js"></script>
   </body>
 </html>

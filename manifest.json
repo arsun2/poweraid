@@ -1,11 +1,11 @@
 {
-  "name": "Getting Started Example",
+  "name": "PowerAid",
   "version": "1.0",
   "description": "Build an Extension!",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "options_page": "options.html",
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "news.js"],
     "persistent": false
   },
   "page_action": {

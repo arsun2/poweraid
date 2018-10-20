@@ -2,6 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+/*
+ * Give user options
+ * Including an options page gives users more control over the extension's functionality, 
+ * further customizing their browsing experience.
+ */
+
 'use strict';
 
 let page = document.getElementById('buttonDiv');
