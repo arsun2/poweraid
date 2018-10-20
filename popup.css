@@ -1,13 +1,42 @@
 #container {
-    width: 250px;
+    width: 350px;
+}
+
+#container hr {
+    margin: 0;
 }
 
 #main-header {
-    
+    padding: 15px;
+    text-align: center;
 }
 
-button {
-    height: 30px;
-    width: 30px;
-    outline: none;
+.card {
+    margin: 10px;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card-body h6 {
+    font-family: 'rubik';
+    font-weight: 500;
+}
+
+.card-location {
+    padding-left: 10px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 13px;
+    color: #515151;
+}
+
+.card-location:hover {
+    text-decoration: none !important;
 }
