@@ -1,0 +1,19 @@
+{
+  "name": "poweraid",
+  "version": "1.0.0",
+  "description": "poweraid",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsun2/poweraid.git"
+  },
+  "author": "Austin Sun, Lina Sie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsun2/poweraid/issues"
+  },
+  "homepage": "https://github.com/arsun2/poweraid#readme"
+}
