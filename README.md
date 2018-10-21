@@ -1,6 +1,6 @@
 # poweraid
 
-Google Chrome Extension that provides an accessible and centralized crowdsourcing platform for trending social causes.
+Google Chrome Extension that provides an accessible and centralized crowdsourcing platform to donate to trending social causes.
 
 To run:
 1. Clone repository
