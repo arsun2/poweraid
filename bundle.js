@@ -30,11 +30,11 @@ window.addEventListener("DOMContentLoaded", function(event) {
          "<div class='card'>" +
            "<div class='card-body'>" +
              "<a href=''><h6>" + topCauses[i].title.eng + "<span class ='card-location'>" +
-             (topCauses[i].location != null ? (topCauses[i].location.label != null ? topCauses[i].location.label.eng : "") : "") + 
+             (topCauses[i].location != null ? (topCauses[i].location.label != null ? topCauses[i].location.label.eng : "") : "") +
              "</span></h6></a>" +
              "<hr style='padding: 0 !important;'/>" +
              "<div class='card-body-buttons'>" +
-               "<button type='button' class='btn btn-outline-success'>Donate</button>" +
+               "<button type='button' class='btn btn-outline-success'><a href='https://donate.worldvision.org/give/disaster-relief' target='_blank'>Donate</a></button>" +
              "</div>" +
            "</div>" +
          "</div>";
@@ -43,41 +43,6 @@ window.addEventListener("DOMContentLoaded", function(event) {
      console.log(causeHtml);
      console.log(topCauses);
   });
-
-
-  // var myCard = document.getElementById("popCause");
-
-  // myCard.innerHTML = displayContents(topCauses);
-  /*
-  while (document.readyState !== "complete") {
-    setInterval(100);
-  }
-  document.addEventListener("DOMContentLoaded", function(event) {
-    var myCard = document.getElementById("popCause");
-    myCard.innerHTML = displayContents(topCauses);
-  });
-
-   */
-
-   /*function displayContents(recentCauses){
-     console.log("dP is called!");
-     console.log(topCauses.length);
-     var causeHtml = '';
-     for(var i = 0; i < topCauses.length; i++){
-       causeHtml +=
-         "<div class='card'>" +
-           "<div class='card-body'>" +
-             "<a href=''><h6>" + topCauses[i].title + "<span class ='card-location'>" + topCauses[i].location + "</span></h6></a>" +
-             "<hr style='padding: 0 !important;'/>" +
-             "<div class='card-body-buttons'>" +
-               "<button type='button' class='btn btn-outline-success'>Donate</button>" +
-             "</div>" +
-           "</div>" +
-         "</div>";
-     }
-     console.log(causeHtml);
-     return causeHtml;
-   }*/
 
 
 });
